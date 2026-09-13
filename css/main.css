@@ -94,3 +94,74 @@ a {
     }
 }
 
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 80px 524.5px 48px;
+}
+
+.best_seler .row{
+    gap: 30px;
+}
+
+.card{
+    width: calc((100% - 90px) / 4);
+}
+
+.space{
+    height: 40px;
+}
+
+.card img{
+    width: 100%;
+}
+
+h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 24px 0;
+    height: 32px;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    height: 32px;
+}
+
+button{
+    margin-top: 38px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .card{
+    width: calc(( 100% - 30px ) / 2 );
+    }
+    h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 19.5px 48px;
+}
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .card{
+    width: calc(( 100% - 60px ) / 3 );
+    }
+    h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 19.5px 48px;
+}
+    
+}
+
