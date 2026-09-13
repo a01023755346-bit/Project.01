@@ -65,3 +65,32 @@ a {
    }
 }
 
+.collection_section .row{
+    gap: 30px;
+}
+
+.collection{
+    width: calc( (100% - 90px) / 4 );
+    text-align: center;
+}
+
+.collection h2{
+    font-size: 18px;
+}
+
+.collection img{
+    width: 100%;
+}
+
+@media  screen and (min-width:320px) and (max-width:600px) {
+    .collection{
+    width: calc( (100% - 30px) / 2 );
+    }
+}
+
+@media  screen and (min-width:601px) and (max-width:991px) {
+    .collection{
+    width: calc( (100% - 60px) / 3 );
+    }
+}
+
